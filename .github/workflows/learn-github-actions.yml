@@ -1,5 +1,6 @@
 name: learn-github-actions
-on: [push]
+on: [release]
+# [push]
 
 jobs:
   check-bats-version:
