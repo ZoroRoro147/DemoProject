@@ -23,7 +23,7 @@
     </dependency>
   </dependencies>
   
-  <plugins>
+<!--   <plugins>
    <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-install-plugin</artifactId>
@@ -41,5 +41,15 @@
             </execution>
         </executions>
     </plugin>
-  </plugins>
+  </plugins> -->
+  
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.6.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+  
 </project>
